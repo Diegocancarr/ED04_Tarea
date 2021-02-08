@@ -3,6 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/*
+*Estoy introduciendo comentarios Javadoc en el proyecto
+*para comprobar su funcionamiento
+*dentro de la clase CCuenta
+*
+*/
+
 package cuentas;
 
 /**
@@ -14,6 +22,12 @@ public class CCuenta {
     /**
      * @return the nombre
      */
+    
+    /*
+    *Esta parte es la que hemos modificado durate la práctica
+    *con el refactor, encapsulando los atributos de la clase CCuenta
+    *
+    */
     public String getNombre() {
         return nombre;
     }
@@ -66,6 +80,11 @@ public class CCuenta {
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
+    
+    /*
+    *Esta parte es la que hemos encapsulado y se utiliza en la clase
+    *por medio de set y get
+    */
     
 private String nombre;
     private String cuenta;
